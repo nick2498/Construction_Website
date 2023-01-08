@@ -35,3 +35,13 @@ window.onscroll = () => {
   loginForm.classList.remove("active");
   contactInfo.classList.remove("active");
 };
+
+// Initialize Swiper
+var swiper = new Swiper(".home-slider", {
+  loop: true,
+  grabCursor: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
