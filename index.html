@@ -12,8 +12,14 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
 
+    <!-- swiperjs cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
     <!-- custom css file link -->
-    <link rel="stylesheet" href="src/style/style.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
   </head>
   <body>
     <!-- header section starts -->
@@ -92,6 +98,61 @@
       </div>
     </div>
     <!-- header section ends -->
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <section
+            class="swiper-slide slide"
+            style="background: url(src/images/home-slide-1.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>we provide best service</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam,
+                voluptatem. Non, libero. Fugiat, officiis nobis.
+              </p>
+              <a href="#about" class="btn">get started</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="background: url(src/images/home-slide-2.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>making dream come to life</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam,
+                voluptatem. Non, libero. Fugiat, officiis nobis.
+              </p>
+              <a href="#about" class="btn">get started</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="background: url(src/images/home-slide-3.jpg) no-repeat"
+          >
+            <div class="content">
+              <h3>from concept to creation</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam,
+                voluptatem. Non, libero. Fugiat, officiis nobis.
+              </p>
+              <a href="#about" class="btn">get started</a>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- swiperjs cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <!-- custom js file link -->
     <script src="src/js/script.js"></script>
