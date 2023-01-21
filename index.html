@@ -12,6 +12,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
 
+    <!-- lightGallery cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+    />
+
     <!-- swiperjs cdn link -->
     <link
       rel="stylesheet"
@@ -263,10 +269,98 @@
     </section>
     <!-- services section ends -->
 
+    <!-- projects section starts -->
+    <section class="projects" id="projects">
+      <h1 class="heading">our projects</h1>
+
+      <div class="box-container">
+        <a href="/src/images/project-1.jpg" class="box">
+          <div class="image">
+            <img src="/src/images/project-1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>dream home</h3>
+              <p>construction, design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+        <a href="/src/images/project-2.jpg" class="box">
+          <div class="image">
+            <img src="/src/images/project-2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>dream home</h3>
+              <p>construction, design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+        <a href="/src/images/project-3.jpg" class="box">
+          <div class="image">
+            <img src="/src/images/project-3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>dream home</h3>
+              <p>construction, design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+        <a href="/src/images/project-4.jpg" class="box">
+          <div class="image">
+            <img src="/src/images/project-4.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>dream home</h3>
+              <p>construction, design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+        <a href="/src/images/project-5.jpg" class="box">
+          <div class="image">
+            <img src="/src/images/project-5.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>dream home</h3>
+              <p>construction, design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+        <a href="/src/images/project-6.jpg" class="box">
+          <div class="image">
+            <img src="/src/images/project-6.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>dream home</h3>
+              <p>construction, design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- projects section ends -->
+
+    <!-- lightGallery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
     <!-- swiperjs cdn link -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <!-- custom js file link -->
     <script src="src/js/script.js"></script>
+
+    <script>
+      lightGallery(document.querySelector(".projects .box-container"));
+    </script>
   </body>
 </html>
