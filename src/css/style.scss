@@ -729,6 +729,24 @@ section {
   }
 }
 
+.footer {
+  text-align: center;
+
+  .links .btn {
+    margin: 0.5rem;
+  }
+
+  .credit {
+    @include titleText(2rem);
+    margin-top: 2rem;
+    padding-top: 1rem;
+
+    span {
+      color: var(--yellow);
+    }
+  }
+}
+
 // media queries
 @media (max-width: 1200px) {
   .header {
