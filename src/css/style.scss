@@ -719,6 +719,16 @@ section {
   }
 }
 
+.logo-container {
+  text-align: center;
+
+  img {
+    height: 10rem;
+    pointer-events: none;
+    user-select: none;
+  }
+}
+
 // media queries
 @media (max-width: 1200px) {
   .header {
